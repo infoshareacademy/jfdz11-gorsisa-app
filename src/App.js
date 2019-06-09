@@ -1,6 +1,9 @@
-import React from 'react';
+import React, {Fragment } from 'react';
+
 import logo from './logo.svg';
 import './App.css';
+
+import { Route, BrowserRouter as Router, Switch, Redirect, NavLink } from 'react-router-dom';
 
 function App() {
   return (
@@ -14,12 +17,31 @@ function App() {
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           Learn React
         </a>
-      </header>
+        </header>
+        <NestedRouting />
+        </div>
+  )}
+
+const Example = () => <h1> ELO</h1>
+const Home = () => <h1> HOME </h1>
+const LandingPage = () => <h1> Landing Page </h1>
+
+function NestedRouting () {
+  return (<div>
+
+<Router>
+      <Switch>
+      <Route path="/home" component={Home} />
+        <Route path="/example" component={Example} />
+        <Route  exact path="/landing-page" component={LandingPage} />
+        <Redirect exact from="/" to="/landing-page" />
+      </Switch>
+      </Router>
     </div>
+  
   );
 }
 
