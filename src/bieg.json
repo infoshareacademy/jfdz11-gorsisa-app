@@ -1,0 +1,40 @@
+{
+  "biegi": [
+    {
+      "id": 1,
+      "name": "Bieg po życie",
+      "startDate": "25-06-2019",
+      "startPoint": "Gdańsk",
+      "finishPoint": "Gdynia",
+      "length": 5,
+      "capacity": 50
+    },
+    {
+      "id": 2,
+      "name": "Bieg do źródeł",
+      "startDate": "25-07-2019",
+      "startPoint": "Gdynia",
+      "finishPoint": "Rumia",
+      "length": 10,
+      "capacity": 5000
+    },
+    {
+      "id": 3,
+      "name": "Bieg po niepodległość",
+      "startDate": "11-11-2019",
+      "startPoint": "Warszawa",
+      "finishPoint": "Warszawa",
+      "length": 42,
+      "capacity": 1500
+    },
+    {
+      "id": 4,
+      "name": "Maraton po niezdrowie",
+      "startDate": "23-09-2019",
+      "startPoint": "Warszawa",
+      "finishPoint": "Gdańsk",
+      "length": 350,
+      "capacity": 2000
+    }
+  ]
+}
