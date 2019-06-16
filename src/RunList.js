@@ -13,10 +13,10 @@ export const RunList = () => {
             
             <div>
                 {runs.biegi.map(run => 
-                <div key={run.id} style={{display: "flex", justifyContent: "space-between", border: "3px outset black", backgroundColor: "494747" }}>
+                <div key={run.id} style={{display: "flex", justifyContent: "space-between", border: "3px outset black", backgroundColor: "494747"  }}>
                 <p>{run.name}</p>
                 <p>Dystans: {run.length}</p>
-                
+                <p>Data: {run.startDate}</p>
                 </div>
                 )}
             </div>
