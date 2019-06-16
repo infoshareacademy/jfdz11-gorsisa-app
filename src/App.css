@@ -5,18 +5,24 @@
 
 .App-BackArrow {
   /* animation: App-logo-spin infinite 20s linear; */
-  height: 15vmin;
+  height: 10vmin;
   pointer-events: none;
-  position: relative; right:170px;
+  position: relative; right:135px; top: -5px;
+  display: responsive;
   
 }
 
 .App-Logo {
   height: 20vmin;
+  position: relative; top: -20px;
+  border: 2px outset gray;
+  background-color: gray;
+
+
 }
 
 .App-header {
-  background-color: #5c0505;
+  background-color: #494747;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +32,25 @@
   color: white;
   border: 1px solid rgb(177, 11, 11); 
 }
+
+.copyright {
+  display: block;
+  background-color: rgb(82, 83, 83);
+  color: rgba(255, 255, 255, 0.397);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 0;
+  display: block;
+  font-size: 9px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 26px;
+  margin: 0;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
 
 /* .App-link {
   color: #61dafb;
