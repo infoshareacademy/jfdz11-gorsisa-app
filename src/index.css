@@ -1,10 +1,9 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family:  'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
@@ -13,31 +12,23 @@ code {
 }
   body { 
     font: 100% normal Arial, Helvetica, sans-serif; 
-    background: #161712;
+    background: #585757;
+    color:#ffffff;
   }
 
-.container {
-  display: fl//ex;                  
-           
-  flex-wrap: nowrap;             
-  justify-content: space-between;
-}
 .map{
   width: 40%;
-  height: 400px;
+  height: 800px;
   border-style: solid;
   border-width: medium;
-  border-color: aqua;
-  left: 50px;
+  border-color: #ffffff;
   float: left;
+  margin-left: 30px
 }
 
-* { 
-  margin: 0; 
-  padding: 0;
-}
 
-form, input, select, textarea {
+
+input, select, textarea {
   margin:0; 
   padding:0; 
   color:#ffffff;
@@ -45,11 +36,14 @@ form, input, select, textarea {
 
 div.box {
   margin:0 auto;
-  width:800px;
+  padding-left: 10px;
+  float:right;
   background:#222222;
   position:relative;
-  top:50px;
   border:1px solid #262626;
+  width: 40%;
+  margin-right: 30px;
+  height: 800px;
 }
 
 div.box h1 { 
@@ -62,8 +56,8 @@ div.box h1 {
 }
 
 div.box label {
-  width:100%;
-  display: block;
+  width:80%;
+  
   background:#1C1C1C;
   border-top:1px solid #262626;
   border-bottom:1px solid #161712;
@@ -74,15 +68,26 @@ div.box label span {
   display: block;
   color:#bbbbbb;
   font-size:12px;
-  float:left;
-  width:40%;
-  text-align:right;
-  padding:5px 20px 0 0;
+  float:center;
+  
+  text-align:center;
+  padding:5px 10px 5px 10px;
 }
 
 div.box .wpis {
-  padding:10px 10px;
-  width:40%;
+  padding:10px 10px ;
+  width:90%;
+  float:center;
+  background:#262626;
+  border-bottom: 1px double #171717;
+  border-top: 1px double #171717;
+  border-left:1px double #333333;
+  border-right:1px double #333333;
+}
+.start, .meta {
+  padding:10px 10px ;
+  width:90%;
+  float:center;
   background:#262626;
   border-bottom: 1px double #171717;
   border-top: 1px double #171717;
@@ -91,15 +96,19 @@ div.box .wpis {
 }
 
 div.box .wiadomosc {
-  padding:7px 7px;
-  width:300px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  width:90%;
   background:#262626;
   border-bottom: 1px double #171717;
   border-top: 1px double #171717;
   border-left:1px double #333333;
   border-right:1px double #333333;
   overflow:hidden;
-  height:150px;
+  height:300px;
+  position: relative;
 }
 
 div.box .button	{
@@ -107,9 +116,9 @@ div.box .button	{
   padding:4px 7px;
   background:#CC0000;
   border:0px;
-  position: relative;
-  top:10px;
-  left:382px;
+  position: absolute;
+  left: 45%;
+  top: 20%;
   width:100px;
   border-bottom: 1px double #660000;
   border-top: 1px double #660000;
