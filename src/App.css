@@ -32,7 +32,7 @@
   }
 }
 
-.nav ul {
+.nav .List {
   width: 100%;
   height: 80px;
   padding-top: 40px;
@@ -42,7 +42,7 @@
   margin:5px;
   text-decoration-style: none;
 }
-.nav  li {
+.nav .element_List {
   list-style-type: none;
   padding: 10px;
   

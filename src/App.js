@@ -10,15 +10,15 @@ function App() {
   return (
     <div className="App">
       
-        <NestedRouting />
+        <Routing />
         </div>
   )}
 
-const Example = () => <h1> ELO</h1>
-const Home = () => <h1> HOME </h1>
-const LandingPage = () => <h1> Landing Page </h1>
 
-function NestedRouting () {
+const Home = () => <h1> HOME </h1>
+
+
+function Routing () {
   return (<div>
 
 <Router>
