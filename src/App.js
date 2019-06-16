@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import image from './BackArrow.png';
 import './App.css';
 import { RunList } from './RunList';
 
@@ -7,17 +7,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <img src={image} className="App-BackArrow" alt="BackArrow" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        <a>
+          
         </a>
           <RunList />
       </header>
