@@ -2,6 +2,7 @@ import React, {Fragment } from 'react';
 
 import logo from './logo.svg';
 import './App.css';
+import runs from './bieg.json'
 
 import { Route, BrowserRouter as Router, Switch, Redirect, NavLink } from 'react-router-dom';
 
