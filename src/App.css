@@ -3,24 +3,6 @@
   
 }
 
-.App-BackArrow {
-  /* animation: App-logo-spin infinite 20s linear; */
-  height: 10vmin;
-  pointer-events: none;
-  position: relative; right:135px; top: -5px;
-  display: responsive;
-  
-}
-
-.App-Logo {
-  height: 20vmin;
-  position: relative; top: -20px;
-  border: 2px outset gray;
-  background-color: gray;
-
-
-}
-
 .App-header {
   background-color: #494747;
   min-height: 100vh;
@@ -34,23 +16,12 @@
 }
 
 .copyright {
-  display: block;
-  background-color: rgb(82, 83, 83);
-  color: rgba(255, 255, 255, 0.397);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 10px 0;
-  display: block;
-  font-size: 9px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  line-height: 26px;
-  margin: 0;
-  text-align: center;
-  margin: auto;
-  width: 80%;
+	color: #777;
+	padding: 10px 15px;
+	height: 20px;
+	text-align: center;
+	border-top: 1px solid #e6e6e6;
 }
-
 
 /* .App-link {
   color: #61dafb;
