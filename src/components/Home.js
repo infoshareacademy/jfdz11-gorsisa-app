@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import '../components/Dashboard.js'
 import runs from './bieg.json'
 
 function App() {

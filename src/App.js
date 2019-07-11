@@ -1,5 +1,6 @@
-import React, {Fragment } from 'react';
+import React from 'react';
 import Dashboard from './components/Dashboard/Dashboard' ;
+import ProjectDetails from'./components/projects/ProjectDetails'
 
 import './App.css';
 
@@ -26,7 +27,7 @@ function Routing () {
       <Switch>
       <Route path="/home" component={Home} />
         <Route exact path="/dashboard" component={Dashboard} />
-        <Route  exact path="/landing-page" component={() => <h1>Run list</h1>} />
+        <Route  exact path="/project/:id" component={() => <h1><ProjectDetails /></h1>} />
         <Redirect exact from="/" to="/landing-page" />
       </Switch>
       </Router>

@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.row{
+    margin-bottom: 15px;
+    display: flex;
+}
+.inline-chart{
+    flex: 3;
+    flex-flow: wrap-reverse;
+    height: 100px;
+    padding: 10px;
+    margin: 0%;
+    
+    font-size:30px;
+
+}
+div{
+background-color: rgb(211, 180, 180);
+
+}
+button{
+    padding: 10px;
+    margin: 10px;
+}
