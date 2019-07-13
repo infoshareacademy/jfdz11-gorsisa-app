@@ -1,12 +1,16 @@
 import React from 'react';
-import Dashboard from './components/Dashboard/Dashboard' ;
+import Dashboard from './components/dashboard/Dashboard' ;
 import ProjectDetails from'./components/projects/ProjectDetails'
-import Form from './components/Form/Form'
 
+
+import SignIn from './components/auth/SignIn';
+import SignUp from './components/auth/SignUp';
 
 
 import { Route, BrowserRouter as Router, Switch, Redirect, NavLink } from 'react-router-dom';
 import Navbar from './components/Navbar'
+
+
 function App() {
   return (
     <div className="App">
@@ -28,6 +32,8 @@ function Routing () {
       <Route path="/home" component={Home} />
         <Route exact path="/dashboard" component={Dashboard} />
         <Route  exact path="/project/:id" component={() => <h1><ProjectDetails /></h1>} />
+        <Route exact path="/signin" component={SignIn} />
+        <Route exact path="/signup" component={SignUp} />
         <Redirect exact from="/" to="/landing-page" />
       </Switch>
       </Router>
