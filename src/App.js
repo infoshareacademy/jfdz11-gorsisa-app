@@ -3,7 +3,6 @@ import Dashboard from './components/Dashboard/Dashboard' ;
 import ProjectDetails from'./components/projects/ProjectDetails'
 import Form from './components/Form/Form'
 
-import './App.css';
 
 
 import { Route, BrowserRouter as Router, Switch, Redirect, NavLink } from 'react-router-dom';
